@@ -2,12 +2,13 @@
   "collectionName": "components_one_landscape_one_landscapes",
   "info": {
     "name": "One Landscape",
-    "icon": "arrow-alt-circle-right"
+    "icon": "arrow-alt-circle-right",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "landscape": {
-      "model": "file",
+    "photos": {
+      "collection": "file",
       "via": "related",
       "allowedTypes": [
         "images",

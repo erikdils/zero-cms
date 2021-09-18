@@ -2,36 +2,13 @@
   "collectionName": "components_three_asymmetrical_portraits_three_asymmetrical_portraits",
   "info": {
     "name": "Three Asymmetrical Portraits",
-    "icon": "angle-left"
+    "icon": "angle-left",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "portrait_one": {
-      "model": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ],
-      "plugin": "upload",
-      "required": false,
-      "pluginOptions": {}
-    },
-    "portrait_two": {
-      "model": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ],
-      "plugin": "upload",
-      "required": false,
-      "pluginOptions": {}
-    },
-    "portrait_three": {
-      "model": "file",
+    "photos": {
+      "collection": "file",
       "via": "related",
       "allowedTypes": [
         "images",

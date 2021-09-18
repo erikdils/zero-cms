@@ -2,24 +2,13 @@
   "collectionName": "components_portrait_landscape_portrait_landscapes",
   "info": {
     "name": "Portrait Landscape",
-    "icon": "angle-double-up"
+    "icon": "angle-double-up",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "portrait": {
-      "model": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ],
-      "plugin": "upload",
-      "required": false,
-      "pluginOptions": {}
-    },
-    "landscape": {
-      "model": "file",
+    "photos": {
+      "collection": "file",
       "via": "related",
       "allowedTypes": [
         "images",

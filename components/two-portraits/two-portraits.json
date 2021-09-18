@@ -2,24 +2,13 @@
   "collectionName": "components_two_portraits_two_portraits",
   "info": {
     "name": "Two Portraits",
-    "icon": "angle-double-right"
+    "icon": "angle-double-right",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "portrait_one": {
-      "model": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ],
-      "plugin": "upload",
-      "required": false,
-      "pluginOptions": {}
-    },
-    "portrait_two": {
-      "model": "file",
+    "photos": {
+      "collection": "file",
       "via": "related",
       "allowedTypes": [
         "images",

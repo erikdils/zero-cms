@@ -2,24 +2,13 @@
   "collectionName": "components_array_arrays",
   "info": {
     "name": "array",
-    "icon": "archway"
+    "icon": "archway",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "one": {
-      "model": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ],
-      "plugin": "upload",
-      "required": false,
-      "pluginOptions": {}
-    },
-    "two": {
-      "model": "file",
+    "image": {
+      "collection": "file",
       "via": "related",
       "allowedTypes": [
         "images",
