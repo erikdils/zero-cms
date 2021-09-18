@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "photographers_inner_pages",
   "info": {
-    "name": "Photographers Inner Page"
+    "name": "Photographers Inner",
+    "description": ""
   },
   "options": {
     "increments": true,
