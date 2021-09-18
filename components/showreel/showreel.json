@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_showreel_showreels",
+  "info": {
+    "name": "showreel",
+    "icon": "film",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "video_cover": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "showreel": {
+      "type": "string"
+    },
+    "title": {
+      "type": "text"
+    }
+  }
+}

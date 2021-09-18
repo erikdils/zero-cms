@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_technology_technologies",
+  "info": {
+    "name": "technology",
+    "icon": "utensils"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "items-technology.items"
+    }
+  }
+}

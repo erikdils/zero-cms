@@ -1,0 +1,46 @@
+{
+  "collectionName": "components_three_portraits_bottom_three_portraits_bottoms",
+  "info": {
+    "name": "Three Portraits Bottom",
+    "icon": "angle-double-left"
+  },
+  "options": {},
+  "attributes": {
+    "portrait_one": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "portrait_two": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "portrait_three": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}

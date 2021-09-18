@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_contacts_list_contacts_lists",
+  "info": {
+    "name": "Contacts list",
+    "icon": "align-left"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "position": {
+      "type": "string"
+    },
+    "mail": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "address": {
+      "type": "string"
+    },
+    "map_link": {
+      "type": "string"
+    }
+  }
+}

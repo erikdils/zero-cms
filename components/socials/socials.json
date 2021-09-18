@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_socials_socials",
+  "info": {
+    "name": "Socials",
+    "icon": "comments"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

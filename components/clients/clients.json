@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_clients_clients",
+  "info": {
+    "name": "clients",
+    "icon": "allergies"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}

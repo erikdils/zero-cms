@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/photographers-inner-pages",
+      "handler": "photographers-inner-page.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/photographers-inner-pages/count",
+      "handler": "photographers-inner-page.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/photographers-inner-pages/:id",
+      "handler": "photographers-inner-page.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/photographers-inner-pages",
+      "handler": "photographers-inner-page.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/photographers-inner-pages/:id",
+      "handler": "photographers-inner-page.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/photographers-inner-pages/:id",
+      "handler": "photographers-inner-page.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

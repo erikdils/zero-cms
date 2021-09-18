@@ -1,0 +1,34 @@
+{
+  "kind": "singleType",
+  "collectionName": "contacts",
+  "info": {
+    "name": "Contacts"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "seo_title": {
+      "type": "string"
+    },
+    "seo_description": {
+      "type": "string"
+    },
+    "title": {
+      "type": "text"
+    },
+    "Contacts_list": {
+      "type": "component",
+      "repeatable": true,
+      "component": "contacts-list.contacts-list"
+    },
+    "Socials": {
+      "type": "component",
+      "repeatable": true,
+      "component": "socials.socials"
+    }
+  }
+}

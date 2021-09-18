@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_history_histories",
+  "info": {
+    "name": "about",
+    "icon": "book-open",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}

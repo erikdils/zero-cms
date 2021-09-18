@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_history_histories",
+  "info": {
+    "name": "History",
+    "icon": "book-reader"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}

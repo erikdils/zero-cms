@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_one_landscape_one_landscapes",
+  "info": {
+    "name": "One Landscape",
+    "icon": "arrow-alt-circle-right"
+  },
+  "options": {},
+  "attributes": {
+    "landscape": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}

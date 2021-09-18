@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "photographers_inner_pages",
+  "info": {
+    "name": "Photographers Inner Page"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "seo_title": {
+      "type": "string"
+    },
+    "seo_description": {
+      "type": "string"
+    },
+    "portfolio": {
+      "type": "dynamiczone",
+      "components": [
+        "two-portraits.two-portraits",
+        "three-portraits-bottom.three-portraits-bottom",
+        "three-portraits-top.three-portraits-top",
+        "three-asymmetrical-portraits.three-asymmetrical-portraits",
+        "four-portraits.four-portraits",
+        "landscape-portrait.landscape-portrait",
+        "portrait-landscape.portrait-landscape",
+        "two-landscapes.two-landscapes",
+        "one-landscape.one-landscape"
+      ]
+    }
+  }
+}

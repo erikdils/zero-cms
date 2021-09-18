@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_numbers_our_numbers",
+  "info": {
+    "name": "our numbers",
+    "icon": "sort-numeric-up",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "value": {
+      "type": "string"
+    }
+  }
+}

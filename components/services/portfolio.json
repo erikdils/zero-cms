@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_portfolio_portfolios",
+  "info": {
+    "name": "portfolio",
+    "icon": "image",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "text"
+    },
+    "video": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}

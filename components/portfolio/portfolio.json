@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_portfolio_portfolios",
+  "info": {
+    "name": "portfolio",
+    "icon": "images",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "items.items"
+    }
+  }
+}
