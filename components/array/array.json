@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_array_arrays",
+  "info": {
+    "name": "array",
+    "icon": "archway"
+  },
+  "options": {},
+  "attributes": {
+    "one": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "two": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}

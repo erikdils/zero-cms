@@ -29,7 +29,8 @@
         "landscape-portrait.landscape-portrait",
         "portrait-landscape.portrait-landscape",
         "two-landscapes.two-landscapes",
-        "one-landscape.one-landscape"
+        "one-landscape.one-landscape",
+        "test.test"
       ]
     }
   }
