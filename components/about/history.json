@@ -9,6 +9,11 @@
   "attributes": {
     "title": {
       "type": "string"
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "about-items.items"
     }
   }
 }

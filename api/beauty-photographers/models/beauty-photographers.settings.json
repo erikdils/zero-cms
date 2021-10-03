@@ -1,0 +1,32 @@
+{
+  "kind": "singleType",
+  "collectionName": "beauty_photographers",
+  "info": {
+    "name": "Beauty Photographers",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "seo_title": {
+      "type": "string"
+    },
+    "seo_description": {
+      "type": "text"
+    },
+    "main": {
+      "type": "component",
+      "repeatable": false,
+      "component": "showreel.showreel"
+    },
+    "Photographers": {
+      "type": "component",
+      "repeatable": true,
+      "component": "photographers.photographers"
+    }
+  }
+}

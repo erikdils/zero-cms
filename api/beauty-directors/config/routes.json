@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/beauty-directors",
+      "handler": "beauty-directors.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/beauty-directors/count",
+      "handler": "beauty-directors.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/beauty-directors/:id",
+      "handler": "beauty-directors.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/beauty-directors",
+      "handler": "beauty-directors.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/beauty-directors/:id",
+      "handler": "beauty-directors.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/beauty-directors/:id",
+      "handler": "beauty-directors.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

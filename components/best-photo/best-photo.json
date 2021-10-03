@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_best_photo_best_photos",
+  "info": {
+    "name": "Best_Photo",
+    "icon": "file-image"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "photos": {
+      "type": "component",
+      "repeatable": true,
+      "component": "photos.photos"
+    }
+  }
+}

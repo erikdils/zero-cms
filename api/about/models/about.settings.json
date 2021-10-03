@@ -47,6 +47,11 @@
       "type": "component",
       "repeatable": true,
       "component": "numbers.our-numbers"
+    },
+    "about_portfolio": {
+      "type": "component",
+      "repeatable": false,
+      "component": "about.history"
     }
   }
 }

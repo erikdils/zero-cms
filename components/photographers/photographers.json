@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_photographers_photographers",
+  "info": {
+    "name": "photographers",
+    "icon": "camera",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    },
+    "cover": {
+      "type": "component",
+      "repeatable": true,
+      "component": "cover-image.cover"
+    }
+  }
+}

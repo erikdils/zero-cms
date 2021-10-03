@@ -1,0 +1,32 @@
+{
+  "kind": "singleType",
+  "collectionName": "food_photographers_pages",
+  "info": {
+    "name": "Food Photographers",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "seo_title": {
+      "type": "string"
+    },
+    "seo_description": {
+      "type": "text"
+    },
+    "photographers": {
+      "type": "component",
+      "repeatable": true,
+      "component": "photographers.photographers"
+    },
+    "main": {
+      "type": "component",
+      "repeatable": false,
+      "component": "showreel.showreel"
+    }
+  }
+}

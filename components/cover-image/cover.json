@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_cover_image_covers",
+  "info": {
+    "name": "cover",
+    "icon": "adjust"
+  },
+  "options": {},
+  "attributes": {
+    "cover_image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}

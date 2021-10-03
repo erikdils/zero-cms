@@ -1,0 +1,54 @@
+{
+  "kind": "collectionType",
+  "collectionName": "food_directors",
+  "info": {
+    "name": "Food Directors",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "seo_title": {
+      "type": "string"
+    },
+    "seo_description": {
+      "type": "text"
+    },
+    "main": {
+      "type": "component",
+      "repeatable": false,
+      "component": "showreel.showreel"
+    },
+    "portfolio": {
+      "type": "component",
+      "repeatable": true,
+      "component": "items.directors-items"
+    },
+    "title": {
+      "type": "string"
+    },
+    "biography": {
+      "type": "richtext"
+    },
+    "photo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    }
+  }
+}

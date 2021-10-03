@@ -2,7 +2,8 @@
   "kind": "singleType",
   "collectionName": "contacts",
   "info": {
-    "name": "Contacts"
+    "name": "Contacts",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -29,6 +30,11 @@
       "type": "component",
       "repeatable": true,
       "component": "socials.socials"
+    },
+    "instagram": {
+      "type": "component",
+      "repeatable": true,
+      "component": "instagram-feed.instagram"
     }
   }
 }

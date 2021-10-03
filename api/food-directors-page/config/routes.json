@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/food-directors-page",
+      "handler": "food-directors-page.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/food-directors-page",
+      "handler": "food-directors-page.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/food-directors-page",
+      "handler": "food-directors-page.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

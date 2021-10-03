@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/beauty-photographers",
+      "handler": "beauty-photographers.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/beauty-photographers",
+      "handler": "beauty-photographers.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/beauty-photographers",
+      "handler": "beauty-photographers.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

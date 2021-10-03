@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/beauty-directors-page",
+      "handler": "beauty-directors-page.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/beauty-directors-page",
+      "handler": "beauty-directors-page.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/beauty-directors-page",
+      "handler": "beauty-directors-page.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

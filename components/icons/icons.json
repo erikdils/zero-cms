@@ -2,8 +2,22 @@
   "collectionName": "components_icons_icons",
   "info": {
     "name": "icons",
-    "icon": "anchor"
+    "icon": "anchor",
+    "description": ""
   },
   "options": {},
-  "attributes": {}
+  "attributes": {
+    "icon": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
 }

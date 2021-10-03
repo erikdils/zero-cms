@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_best_video_best_videos",
+  "info": {
+    "name": "Best Video",
+    "icon": "file-video",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "video_items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "video-items.video-items"
+    }
+  }
+}

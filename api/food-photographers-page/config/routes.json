@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/food-photographers-page",
+      "handler": "food-photographers-page.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/food-photographers-page",
+      "handler": "food-photographers-page.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/food-photographers-page",
+      "handler": "food-photographers-page.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

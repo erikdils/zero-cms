@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/food-directors",
+      "handler": "food-directors.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/food-directors/count",
+      "handler": "food-directors.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/food-directors/:id",
+      "handler": "food-directors.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/food-directors",
+      "handler": "food-directors.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/food-directors/:id",
+      "handler": "food-directors.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/food-directors/:id",
+      "handler": "food-directors.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

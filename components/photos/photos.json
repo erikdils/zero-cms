@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_photos_photos",
+  "info": {
+    "name": "photos",
+    "icon": "folder-plus",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "case": {
+      "type": "string"
+    },
+    "photo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}

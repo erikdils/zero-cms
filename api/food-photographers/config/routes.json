@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/food-photographers",
+      "handler": "food-photographers.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/food-photographers/count",
+      "handler": "food-photographers.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/food-photographers/:id",
+      "handler": "food-photographers.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/food-photographers",
+      "handler": "food-photographers.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/food-photographers/:id",
+      "handler": "food-photographers.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/food-photographers/:id",
+      "handler": "food-photographers.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

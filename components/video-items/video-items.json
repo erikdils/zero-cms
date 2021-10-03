@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_video_items_video_items",
+  "info": {
+    "name": "video_items",
+    "icon": "photo-video",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "case": {
+      "type": "string"
+    },
+    "director": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "video_cover": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}

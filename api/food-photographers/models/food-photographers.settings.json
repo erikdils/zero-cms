@@ -1,0 +1,62 @@
+{
+  "kind": "collectionType",
+  "collectionName": "food_photographers",
+  "info": {
+    "name": "Food Photographers"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "seo_title": {
+      "type": "string"
+    },
+    "seo_description": {
+      "type": "text"
+    },
+    "main": {
+      "type": "component",
+      "repeatable": false,
+      "component": "main-photographer.main"
+    },
+    "portfolio": {
+      "type": "dynamiczone",
+      "components": [
+        "two-portraits.two-portraits",
+        "three-portraits-bottom.three-portraits-bottom",
+        "three-portraits-top.three-portraits-top",
+        "three-asymmetrical-portraits.three-asymmetrical-portraits",
+        "four-portraits.four-portraits",
+        "landscape-portrait.landscape-portrait",
+        "portrait-landscape.portrait-landscape",
+        "one-landscape.one-landscape",
+        "two-landscapes.two-landscapes"
+      ]
+    },
+    "title": {
+      "type": "string"
+    },
+    "biography": {
+      "type": "richtext"
+    },
+    "photo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    }
+  }
+}

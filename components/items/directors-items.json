@@ -12,8 +12,7 @@
     },
     "link": {
       "type": "string",
-      "required": true,
-      "default": "/"
+      "required": true
     },
     "video": {
       "model": "file",

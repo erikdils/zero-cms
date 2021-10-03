@@ -2,12 +2,18 @@
   "collectionName": "components_clients_clients",
   "info": {
     "name": "clients",
-    "icon": "allergies"
+    "icon": "allergies",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "title": {
       "type": "string"
+    },
+    "icons": {
+      "type": "component",
+      "repeatable": true,
+      "component": "icons.icons"
     }
   }
 }

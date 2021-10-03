@@ -32,6 +32,16 @@
       "type": "component",
       "repeatable": false,
       "component": "about.history"
+    },
+    "Best_Video": {
+      "type": "component",
+      "repeatable": false,
+      "component": "best-video.best-video"
+    },
+    "Best_Photo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "best-photo.best-photo"
     }
   }
 }

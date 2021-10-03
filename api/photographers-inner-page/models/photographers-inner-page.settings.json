@@ -2,7 +2,7 @@
   "kind": "collectionType",
   "collectionName": "photographers_inner_pages",
   "info": {
-    "name": "Photographers Inner",
+    "name": "Beauty Photographers",
     "description": ""
   },
   "options": {
@@ -16,7 +16,7 @@
       "type": "string"
     },
     "seo_description": {
-      "type": "string"
+      "type": "text"
     },
     "portfolio": {
       "type": "dynamiczone",
@@ -31,6 +31,33 @@
         "two-landscapes.two-landscapes",
         "one-landscape.one-landscape"
       ]
+    },
+    "title": {
+      "type": "string"
+    },
+    "biography": {
+      "type": "richtext"
+    },
+    "photo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "Main": {
+      "type": "component",
+      "repeatable": false,
+      "component": "main-photographer.main"
     }
   }
 }
